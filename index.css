@@ -1,0 +1,130 @@
+    html {
+    box-sizing: border-box;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  body {
+    background-color: rgb(233, 241, 239);
+  } 
+.container {
+    margin-top: 40px;
+    margin-left: 5%;      
+    font-family: 'Dancing Script', cursive;
+    width: 50%;
+    padding: 20px;
+    background-color: rgb(119, 198, 230);
+    height: auto;
+  }
+  
+.hrnew {
+    border-top: 1px solid#aaa;
+    width: 100%;
+}
+
+.pic {
+    padding:15px ;
+}
+
+.fixed-bottom {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #ccc;
+}
+/* Width at 1200px and below */
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }  
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+
+
+/* Additional Screen Sizes */
+
+/* Width at 320px and below */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  } 
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+/* Width at 168px and below */
+@media screen and (max-width: 168px) {
+  body {
+    background-color: #333;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }  
+
+  #main-content,
+  #sidebar {
+    width: 100%;
+  }
+
+  #sidebar {
+    margin-top: 40px;
+  }
+}
+
+  
+
